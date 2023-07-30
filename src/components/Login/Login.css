@@ -1,0 +1,27 @@
+.login-page {
+  height: 100vh;
+  background: #322653;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 100px;
+  color: #fff;
+  background: #ef6262;
+  font-size: medium;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background: #9c4242;
+}

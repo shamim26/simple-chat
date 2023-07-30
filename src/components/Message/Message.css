@@ -1,0 +1,30 @@
+.message-position-end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 2px;
+}
+
+.message-position-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.message {
+  background: rgb(88, 138, 157);
+  color: #fff;
+  width: 60%;
+  padding: 5px 10px;
+  margin: 10px 5px;
+}
+
+.msg-border-end {
+  border-radius: 8px 8px 0 8px;
+}
+
+.msg-border-start {
+  border-radius: 8px 8px 8px 0;
+}
